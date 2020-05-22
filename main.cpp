@@ -17,7 +17,7 @@ void tos_ssplit(const std::string& s, char c,std::vector<std::string>& v)
       v.push_back(s.substr(i, s.length( )));
     }
   }
-
+  
   if ((s.size() !=0) && (v.size() == 0))
   {
       v.push_back(s);
